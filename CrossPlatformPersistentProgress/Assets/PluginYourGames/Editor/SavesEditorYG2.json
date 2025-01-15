@@ -1,0 +1,48 @@
+{
+    "UserProgress": {
+        "UserId": "8-800-555-xx-xx",
+        "UserName": "NekoBoy",
+        "Coins": 184,
+        "Crystals": 0
+    },
+    "SkinProgress": {
+        "SkinId": "Nami",
+        "SkinName": "Toma",
+        "IsSelected": false,
+        "IsPurchasable": false
+    },
+    "HalloweenEventProgress": {
+        "Currency": 0,
+        "LevelProgresses": [
+            {
+                "Id": 1,
+                "Completed": false
+            },
+            {
+                "Id": 2,
+                "Completed": false
+            },
+            {
+                "Id": 3,
+                "Completed": false
+            },
+            {
+                "Id": 4,
+                "Completed": false
+            },
+            {
+                "Id": 5,
+                "Completed": false
+            }
+        ]
+    },
+    "intExample": 5,
+    "strExample": "Hello!",
+    "boolExample": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "idSave": 3
+}
