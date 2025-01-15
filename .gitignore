@@ -1,0 +1,61 @@
+# Ignore Unity-generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Ignore crash reports
+*.pidb
+*.pidb.meta
+
+# Ignore auto-generated Visual Studio/MonoDevelop/JetBrains project files
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.csproj.meta
+*.unityproj
+*.booproj
+*.dll
+*.exe
+*.log
+*.vs
+.vscode/
+.idea/
+
+# Ignore local environment settings
+*.swp
+*.cache
+*.tmp
+*.bak
+*.manifest
+*.moved-aside
+*.copying
+*.csproj.user
+
+# Ignore crash reports
+sysinfo.txt
+
+# Ignore file lock
+*.lock
+
+# Custom paths specific to the project
+CrossPlatformPersistentProgress/.idea
+CrossPlatformPersistentProgress/Assembly-CSharp-Editor.csproj
+CrossPlatformPersistentProgress/Assembly-CSharp.csproj
+CrossPlatformPersistentProgress/Temp
+CrossPlatformPersistentProgress/UserSettings
+CrossPlatformPersistentProgress/obj
+CrossPlatformPersistentProgress/Logs
+CrossPlatformPersistentProgress/Library
+CrossPlatformPersistentProgress/CrossPlatformPersistentProgress.sln
+
+# Ignore platform-specific generated files
+.DS_Store
+*.apk
+*.unitypackage
