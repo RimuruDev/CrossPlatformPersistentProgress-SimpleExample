@@ -1,5 +1,10 @@
 using RimuruDev.PersistentModule.Core;
 using RimuruDev.PersistentModule.Models;
+using RimuruDev.PersistentModule.Utils;
+
+#if PLUGIN_YG_2 && UNITY_WEBGL
+using YG;
+#endif
 
 namespace RimuruDev.PersistentModule.Implementations.WebGL
 {

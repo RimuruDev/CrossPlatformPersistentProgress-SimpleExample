@@ -95,6 +95,9 @@ namespace RimuruDev.PersistentModule.Implementations.Mobile
                 Debug.LogError($"Error loading file at {filePath}: {e.Message}");
             }
 
+            //
+            // На мобилках по сути нужно отправить реквест на отложенный сейв, сразу не стоить сейвить ото пзц будет
+            //
             return defaultData;
         }
 
