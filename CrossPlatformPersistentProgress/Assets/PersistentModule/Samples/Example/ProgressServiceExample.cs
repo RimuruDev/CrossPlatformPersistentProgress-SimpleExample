@@ -11,6 +11,8 @@ namespace RimuruDev.PersistentModule.Samples.Example
             //
             // NOTE: Использование Static Progress Service туть :3
             //
+            // ***NOTE: Load не стоит вызывать для YandexGamePlugin
+            // Но для всех остальных платформ, это обязательно вызвать нужно!!!!! Тут без вариантов.
             StaticProgressService.Instance.Load();
         }
 
